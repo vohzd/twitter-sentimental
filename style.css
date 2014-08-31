@@ -1,0 +1,138 @@
+html,body{
+	margin:0px;
+	padding:0px;
+	font-family:courier;
+	width:100%;
+	font-size:1.25em;
+	overflow:hidden;
+}
+.rectangle{
+	width:100%;
+	height:50%;
+	padding:3%;
+}
+#error{
+	width:33%;
+	padding:1%;
+	margin-left:13%;
+	margin-top:1%;
+	background-color: #DDB6B6;
+	font-size:0.6em;
+	border:2px solid;
+	border-color:#D5A8A8;
+}
+#firstHalf{
+	display:none;
+	margin-bottom:42%;
+	width: 95%
+}
+#prompt{
+
+}
+
+#secondHalf{
+	background: url(bg.png);
+	background-size: 49% ;
+	background-position: -67px -10px;
+	height:1726px;
+	background-repeat: no-repeat;
+	display:none;
+	background-color:#B0D1E3;
+	bottom:0;
+	position:relative;
+	border-top: 4px solid;
+	border-color:#C5D9E1;
+	width:95%;
+}
+
+#mainWrapper{
+	overflow:hidden;
+}
+input[type="text"]{
+	width:60%;
+	padding:1%;
+	font-family:courier;
+	font-size:1.25em;
+
+}
+input[type="button"]{
+	width:62.4%;
+	padding:1%;
+	background-color: #C6E2ED;
+	border:2px solid;
+	border-color:#C5D9E1;
+	font-family:courier;
+	font-size:1.05em;
+}
+select{
+	width:62.4%;
+	padding:1%;
+	background-color: #C6E2ED;
+	border:2px solid;
+	border-color:#C5D9E1;
+	font-family:courier;
+	font-size:1.05em;
+}
+input[type="button"]:hover{
+	background-color: #ACD5E7;
+}
+h1,p{
+	margin:0;
+	padding:0;
+}
+#loading{
+	display:none;
+	padding:8%;
+	background-color:white;
+	opacity:0.5;
+	width:100%;
+	height:100%;
+	border-radius: 13px;
+}
+#center{
+	margin-left:30%;
+}
+#output{
+	width:80%;
+}
+#backToTop{
+	display:none;
+}
+.outputBox{
+	width:85%;
+	background-color:white;
+	float:left;
+	opacity: 0.8;
+	border-radius: 20px;
+	padding:10px;
+	margin-bottom:3%;
+	margin-top:3%;
+}
+.outputBoxPositive{
+	background-color: #96C58C;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:1%;
+	border-radius: 10px;
+}
+.outputBoxNegative{
+	background-color: #C5948C;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:1%;
+	border-radius: 10px;
+}
+.outputBoxIndifferent{
+	background-color: #C8CDC7;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:1%;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
